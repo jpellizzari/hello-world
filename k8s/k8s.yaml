@@ -16,7 +16,7 @@ spec:
       - name: docker-hub
       containers:
         - name: hello
-          image: quay.io/jpellizzari/hello:latest
+          image: jpellizzari/hello:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
