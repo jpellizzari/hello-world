@@ -12,8 +12,8 @@ spec:
       labels:
         app: hello
     spec:
-        imagePullSecrets:
-      - name: docker-hub
+      imagePullSecrets:
+        - name: docker-hub
       containers:
         - name: hello
           image: jpellizzari/hello:latest
